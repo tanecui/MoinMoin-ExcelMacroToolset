@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "MoinModule"
 Private Function ConvertNewLine(content As String) As String
     Dim resultContent As String
     'MsgBox content
