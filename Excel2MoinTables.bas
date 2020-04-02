@@ -33,6 +33,9 @@ Sub MoinFormat()
             If isTitle Then
                 cLine = cLine & "'''" & cCellText & "'''||"
             Else
+            If cCellText = "" Then
+                cCellText = "''"
+            End If
                 cLine = cLine & cCellText & "||"
             End If
         Next cCell
